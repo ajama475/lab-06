@@ -1,1 +1,15 @@
-/build
+# Only track these folders/files for the lab repo view
+# (Keep Gradle files locally so Android Studio still works)
+
+# Ignore Gradle + wrapper + project config
+gradle/
+gradlew
+gradlew.bat
+build.gradle.kts
+settings.gradle.kts
+gradle.properties
+local.properties
+
+# Ignore build outputs
+build/
+app/build/
